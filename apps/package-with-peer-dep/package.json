@@ -1,0 +1,17 @@
+{
+  "name": "package-with-peer-dep",
+  "version": "1.0.0",
+  "description": "package that has a peer dep",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react-router": "^5 || ^6"
+  }
+}
